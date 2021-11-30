@@ -1,0 +1,2 @@
+write eeprom -> A OFF, P ON
+exec program -> A OFF, P OFF
