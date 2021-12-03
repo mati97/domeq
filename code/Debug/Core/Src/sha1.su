@@ -1,0 +1,4 @@
+sha1.c:53:6:SHA1_Initialize	16	static
+sha1.c:82:6:SHA1_DataAdd	32	static
+sha1.c:159:6:SHA1_HashBlock	64	static
+sha1.c:276:6:SHA1_Calculate	40	static
