@@ -183,11 +183,7 @@ void BT_CommandDecodeInit(void)
 {
     BT_CmdDecodedFlag = 0;
     BT_CmdDecodeState = RX_DECODE_CMD_SYNC_AA;
-   // while(eusartRxCount)
-    //{
-    //    EUSART_Read();
-   // }
-    //BT_SPPBuffClear();
+
 }
 
 void BT_CommandDecodeMain(void)
@@ -200,13 +196,13 @@ void BT_CommandDecodeMain(void)
 	}
 }
 
-extern volatile uint8_t eusartRxCount;
 
 void BT_CommandHandler(void) {
     uint8_t current_byte;
 
-    while (eusartRxCount) {
-        //current_byte = EUSART_Read();
+    while (USART_GetChar((char*)(&current_byte))) {
+
+//HAL_Delay(100);
 
         switch (BT_CmdDecodeState) {
             case RX_DECODE_CMD_SYNC_AA:
@@ -265,11 +261,6 @@ void BT_CommandDecode( void )
     		break;
 
         case REPORT_AVRCP_ABS_VOL_CTRL: //0x29 command
-
-            //BTAPP_EventHandler(BT_EVENT_AVRCP_ABS_VOLUME_CHANGED, (uint16_t)(BT_CmdBuffer[2]), &BT_CmdBuffer[1]);
-            break;
-
-        case RINGTONE_FINISH_INDICATION: //0x29 command
 
             //BTAPP_EventHandler(BT_EVENT_AVRCP_ABS_VOLUME_CHANGED, (uint16_t)(BT_CmdBuffer[2]), &BT_CmdBuffer[1]);
             break;

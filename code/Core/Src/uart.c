@@ -82,7 +82,6 @@ size_t USART_ReadData(char *data, size_t maxSize){
 }
 
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart){
-	printf("dupa1\r\n");
 	if(huart->Instance==huart_ptr->Instance){
 
 		RingBuffer_PutChar(&USART_RingBuffer_Rx, rcv_char);

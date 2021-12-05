@@ -4,5 +4,5 @@ uart.c:51:8:USART_WriteString	16	static
 uart.c:56:6:USART_GetChar	16	static
 uart.c:69:8:USART_ReadData	24	static
 uart.c:84:6:HAL_UART_RxCpltCallback	16	static
-uart.c:95:6:HAL_UART_TxCpltCallback	16	static
-uart.c:118:6:USART_Init	16	static
+uart.c:94:6:HAL_UART_TxCpltCallback	16	static
+uart.c:117:6:USART_Init	16	static

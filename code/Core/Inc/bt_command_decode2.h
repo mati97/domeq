@@ -24,6 +24,7 @@
 
 #include <stdbool.h>
 #include <stdint.h>
+#include "uart.h"
 
 typedef enum
 {

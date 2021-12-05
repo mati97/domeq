@@ -93,9 +93,10 @@ int main(void)
   MX_GPIO_Init();
   MX_UART4_Init();
   /* USER CODE BEGIN 2 */
+  BT_CommandDecodeInit();
   USART_Init(&huart4);
-  BT_CallNumber("720719331", 9);
-  //BT_Action(ACCEPT_CALL);
+  //BT_CallNumber("720719331", 9);
+  //BT_Action(ANY_MODE_ENTERING_PAIRING);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -104,7 +105,8 @@ int main(void)
   {
 
 	  //BTAPP_EnterBTPairingMode();
-	  HAL_Delay(1000);
+	  //HAL_Delay(1);
+	  BT_CommandDecodeMain();
 
     /* USER CODE END WHILE */
 
