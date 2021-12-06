@@ -1,127 +1,125 @@
-14:56:32:919	< Command: AA 00 02 0E 00 F0 
+21:26:20:084	< Command: AA 00 02 14 01 E9 
+Power on device.
+21:26:20:084	> Event: AA 00 03 01 02 00 FA 
+21:26:20:084	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+21:26:20:118	> Event: AA 00 03 01 0F 00 ED 
+21:26:20:118	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+21:26:20:118	> Event: AA 00 03 32 01 00 CA 
+21:26:20:119	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+21:26:20:119	> Event: AA 00 03 2D 00 01 CF 
+21:26:20:119	< Command: AA 00 02 14 1B CF 
+Line-in is plugged-in.
+21:26:20:119	> Event: AA 00 03 1B 01 01 E0 
+21:26:20:120	< Command: AA 00 02 14 2D BD 
+21:26:20:120	< Command: AA 00 02 14 1B CF 
+Line-in is silence.
+21:26:20:120	> Event: AA 00 03 1B 01 03 DE 
+21:26:20:121	< Command: AA 00 02 14 1B CF 
+Line-in is not silence.
+21:26:20:121	> Event: AA 00 03 1B 01 02 DF 
+21:26:24:912	< Command: AA 00 03 02 00 5D 9E 
 Command Complete.
-14:56:32:932	> Event: AA 00 03 00 0E 00 EF 
-14:56:32:933	< Command: AA 00 02 14 1F CB 
-14:56:32:948	< Command: AA 00 02 10 00 EE 
-14:56:32:979	< Command: AA 00 02 0F 00 EF 
-14:56:33:011	< Command: AA 00 02 08 00 F6 
-14:56:33:042	< Command: AA 00 02 08 01 F5 
-14:56:33:073	< Command: AA 00 03 16 00 00 E7 
-14:56:33:105	< Command: AA 00 03 16 00 01 E6 
-14:56:33:137	< Command: AA 00 03 16 00 02 E5 
-14:56:33:169	< Command: AA 00 03 16 00 03 E4 
-14:56:33:201	< Command: AA 00 02 0D 00 F1 
-14:56:33:201	< Command: AA 00 02 0D 00 F1 
+21:26:24:926	> Event: AA 00 03 00 02 00 FB 
+21:26:25:863	< Command: AA 00 02 14 01 E9 
+Device is under pairing mode
+21:26:25:863	> Event: AA 00 03 01 01 00 FB 
+21:26:30:623	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+21:26:30:625	> Event: AA 00 03 01 0F 00 ED 
+21:26:32:052	< Command: AA 00 02 14 01 E9 
+Device is pairing successfully.
+21:26:32:052	> Event: AA 00 03 01 03 00 F9 
+21:26:32:233	< Command: AA 00 02 14 01 E9 
+Device has an AVRCP link
+21:26:32:233	> Event: AA 00 03 01 0B 00 F1 
+21:26:32:258	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
 
-14:56:33:233	> Event: AA 00 09 1F 01 01 59 6F 3F E3 DB F4 1D 
+21:26:32:258	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+02 DA 
+21:26:32:261	< Command: AA 00 02 14 17 D3 
+21:26:32:323	< Command: AA 00 02 14 01 E9 
+21:26:32:324	< Command: AA 00 03 16 00 00 E7 
+21:26:32:324	< Command: AA 00 03 16 00 00 E7 
+Device has an A2DP link.
+21:26:32:324	> Event: AA 00 03 01 06 00 F6 
 Command Complete.
-14:56:33:233	> Event: AA 00 03 00 10 00 ED 
-14:56:33:234	< Command: AA 00 02 14 21 C9 
-
-14:56:33:234	> Event: AA 00 0A 21 08 6D 61 74 69 48 6F 6D 65 99 
-Command Complete.
-14:56:33:237	> Event: AA 00 03 00 0F 00 EE 
-14:56:33:238	< Command: AA 00 02 14 20 CA 
-
-14:56:33:245	> Event: AA 00 07 20 0E CB 73 F4 81 34 E4 
-Command Complete.
-14:56:33:245	> Event: AA 00 03 00 08 00 F5 
-14:56:33:246	< Command: AA 00 02 14 18 D2 
-UART Versionv1.52
-
-14:56:33:246	> Event: AA 00 04 18 00 01 52 91 
-Command Complete.
-14:56:33:259	> Event: AA 00 03 00 08 00 F5 
-14:56:33:261	< Command: AA 00 02 14 18 D2 
-Firmware Versionv22.10
-
-14:56:33:261	> Event: AA 00 04 18 01 22 10 B1 
-Command Complete.
-14:56:33:263	> Event: AA 00 03 00 16 00 E7 
-Command Complete.
-14:56:33:276	> Event: AA 00 03 00 16 00 E7 
-14:56:33:277	< Command: AA 00 02 14 17 D3 
-In-band ring tone.
-14:56:33:277	> Event: AA 00 04 17 00 01 01 E3 
-Command Disallow.
-14:56:33:279	> Event: AA 00 03 00 16 01 E6 
-Command Complete.
-14:56:33:292	> Event: AA 00 03 00 16 00 E7 
-14:56:33:293	< Command: AA 00 02 14 17 D3 
-Support AVRCP 1.5.
-14:56:33:293	> Event: AA 00 04 17 00 03 01 E1 
-Command Complete.
-14:56:33:295	> Event: AA 00 03 00 0D 00 F0 
-14:56:33:296	< Command: AA 00 02 14 1E CC 
-Device has multi-profiles links.
-Wait to Play
-No Connection.
-Player Status : Paused
-Player Status : Stopped
-Streaming State : No Streaming
-Streaming State : No Streaming
-
-14:56:33:296	> Event: AA 00 08 1E 06 0F 00 02 00 00 00 C3 
-14:56:33:511	< Command: AA 00 02 14 17 D3 
+21:26:32:342	> Event: AA 00 03 00 16 00 E7 
+21:26:32:346	< Command: AA 00 02 14 06 E4 
+Maximum battery level is 5.[Remote Device]
+21:26:32:346	> Event: AA 00 03 06 00 05 F2 
+21:26:32:362	< Command: AA 00 02 14 09 E1 
+Maximum signal strength is 5[Remote device]
+21:26:32:362	> Event: AA 00 03 09 00 05 EF 
+21:26:32:445	< Command: AA 00 02 14 17 D3 
 Remote device name : mati97
-14:56:33:512	> Event: AA 00 0A 17 00 00 6D 61 74 69 39 37 00 C4 
-14:56:38:008	< Command: AA 00 02 14 0A E0 
+21:26:32:449	> Event: AA 00 0A 17 00 00 6D 61 74 69 39 37 00 C4 
+21:26:32:449	< Command: AA 00 02 14 07 E3 
+Battery is normal.
+21:26:32:450	> Event: AA 00 03 07 00 02 F4 
+21:26:32:452	< Command: AA 00 02 14 0A E0 
 Signal strength is normal.
-14:56:38:009	> Event: AA 00 03 0A 00 02 F1 
-14:56:46:013	< Command: AA 00 02 14 29 C1 
-14:56:46:111	< Command: AA 00 02 14 2D BD 
-14:56:46:142	< Command: AA 00 02 14 1A D0 
-Current Playback Status : PLAYING.
+21:26:32:452	> Event: AA 00 03 0A 00 02 F1 
+21:26:32:455	< Command: AA 00 02 14 08 E2 
+No Roaming.
+21:26:32:455	> Event: AA 00 03 08 00 00 F5 
+21:26:32:458	< Command: AA 00 02 14 0B DF 
+Service is avaliable.
+21:26:32:458	> Event: AA 00 03 0B 00 01 F1 
+21:26:32:461	< Command: AA 00 02 14 24 C6 
 
-14:56:46:142	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
-01 DD 
-14:56:46:162	< Command: AA 00 02 14 10 DA 
-EQ mode : EQ mode : off[BTM]
-14:56:46:162	> Event: AA 00 03 10 00 00 ED 
-14:56:46:165	< Command: AA 00 02 14 1B CF 
-A2DP CODEC start.
-14:56:46:165	> Event: AA 00 03 1B 04 01 DD 
-14:56:46:209	< Command: AA 00 02 14 1A D0 
-Current Playback Status : PLAYING.
-
-14:56:46:209	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
-01 DB 
-14:56:47:554	< Command: AA 00 02 14 1A D0 
-Current Playback Status : PAUSED.
-
-14:56:47:554	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
-02 DC 
-14:56:47:605	< Command: AA 00 02 14 1A D0 
-Current Playback Status : PAUSED.
-
-14:56:47:605	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
-02 DA 
-14:56:48:976	< Command: AA 00 02 14 29 C1 
-14:56:48:980	< Command: AA 00 02 14 1A D0 
-Current Playback Status : PLAYING.
-
-14:56:48:980	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
-01 DD 
-14:56:49:047	< Command: AA 00 02 14 1A D0 
-Current Playback Status : PLAYING.
-
-14:56:49:047	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
-01 DB 
-14:56:50:407	< Command: AA 00 02 14 29 C1 
-14:56:51:060	< Command: AA 00 02 14 29 C1 
-14:56:52:526	< Command: AA 00 02 14 1A D0 
-Current Playback Status : PAUSED.
-
-14:56:52:526	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
-02 DC 
-14:56:52:574	< Command: AA 00 02 14 1A D0 
-Current Playback Status : PAUSED.
-
-14:56:52:574	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
-02 DA 
-14:56:54:147	< Command: AA 00 02 14 29 C1 
-14:56:54:591	< Command: AA 00 02 14 29 C1 
-14:56:55:036	< Command: AA 00 02 14 29 C1 
-14:57:04:554	< Command: AA 00 02 14 1B CF 
-A2DP CODEC stop.
-14:57:04:554	> Event: AA 00 03 1B 04 00 DE 
+21:26:32:461	> Event: AA 00 03 24 01 00 D8 
+21:26:32:556	< Command: AA 00 02 14 01 E9 
+21:26:32:557	< Command: AA 00 03 16 00 00 E7 
+21:26:32:557	< Command: AA 00 03 16 00 00 E7 
+Device has a HF link
+21:26:32:557	> Event: AA 00 04 01 05 00 01 F5 
+21:26:32:559	< Command: AA 00 02 14 0F DB 
+Voice Gain Level : 12[BTM]
+21:26:32:560	> Event: AA 00 03 0F 00 0C E2 
+Command Complete.
+21:26:32:562	> Event: AA 00 03 00 16 00 E7 
+21:26:32:626	< Command: AA 00 02 14 17 D3 
+Remote device name : mati97
+21:26:32:626	> Event: AA 00 0A 17 00 00 6D 61 74 69 39 37 00 C4 
+21:26:33:641	< Command: AA 00 02 14 29 C1 
+21:26:35:792	< Command: AA 00 02 14 02 E8 
+Outgoing call.
+21:26:35:794	> Event: AA 00 03 02 00 03 F8 
+21:26:35:891	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+21:26:35:891	> Event: AA 00 03 32 01 00 CA 
+21:26:35:894	< Command: AA 00 02 14 01 E9 
+Device has an SCO link.
+21:26:35:894	> Event: AA 00 03 01 09 00 F3 
+21:26:35:948	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+21:26:35:948	> Event: AA 00 03 2D 00 06 CA 
+21:26:39:498	< Command: AA 00 02 14 0A E0 
+Low signal strength.
+21:26:39:498	> Event: AA 00 03 0A 00 01 F2 
+21:26:45:702	< Command: AA 00 02 14 02 E8 
+Call active.
+21:26:45:702	> Event: AA 00 03 02 00 04 F7 
+21:26:55:681	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+21:26:55:682	> Event: AA 00 03 0A 00 02 F1 
+21:27:01:684	< Command: AA 00 02 14 02 E8 
+No Call.
+21:27:01:685	> Event: AA 00 03 02 00 00 FB 
+21:27:02:569	< Command: AA 00 02 14 01 E9 
+Device has no SCO link.
+21:27:02:569	> Event: AA 00 03 01 0A 00 F2 
+21:27:02:572	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+21:27:02:572	> Event: AA 00 03 32 01 00 CA 
+21:27:02:639	< Command: AA 00 02 14 2D BD 
+21:27:02:690	< Command: AA 00 02 14 1B CF 
+Line-in is silence.
+21:27:02:690	> Event: AA 00 03 1B 01 03 DE 
+21:27:06:491	< Command: AA 00 02 14 0A E0 
+Low signal strength.
+21:27:06:491	> Event: AA 00 03 0A 00 01 F2 
