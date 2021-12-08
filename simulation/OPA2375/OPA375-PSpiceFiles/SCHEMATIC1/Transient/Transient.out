@@ -1,0 +1,327 @@
+
+**** 08/16/21 14:23:42 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232807\Documents\Modeling\model_fix_reupload\opa375-pspicefiles\schematic1\transien
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Transient.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../fixed_models/opa375.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1m 0 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source OPA375
+V_V2         0 VEE 2.75
+V_V3         VIN 0  
++SIN 0 1 1k 0 0 0
+V_V1         VCC 0 2.75
+X_U1         VIN VO VCC VEE VO OPA375
+
+**** RESUMING Transient.cir ****
+.END
+
+**** 08/16/21 14:23:42 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232807\Documents\Modeling\model_fix_reupload\opa375-pspicefiles\schematic1\transien
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.XIn11.DVNF X_U1.Xi_n.DVNF  X_U1.Xe_n.DVN   
+          IS  100.000000E-18  100.000000E-18  100.000000E-18 
+          KF  316.227800E-15  316.227800E-15  100.000000E-12 
+
+
+**** 08/16/21 14:23:42 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232807\Documents\Modeling\model_fix_reupload\opa375-pspicefiles\schematic1\transien
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+**** 08/16/21 14:23:42 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232807\Documents\Modeling\model_fix_reupload\opa375-pspicefiles\schematic1\transien
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.BB_SW      X_U1.ESD_SW     X_U1.OL_SW      X_U1.OR_SW      
+         RON   50              50               1.000000E-03     .01         
+        ROFF    1.000000E+12    1.000000E+12    1.000000E+09    1.000000E+09 
+         VON     .7              .25             .9             1.000000E-03 
+        VOFF    0               0                .8             0            
+
+
+               X_U1.S_VSWITCH_1 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .1          
+
+
+               X_U1.S_VSWITCH_2 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .1          
+
+
+               X_U1.S_VSWITCH_3 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .1          
+
+
+               X_U1.S_VSWITCH_4 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .1          
+
+
+               X_U1.S_VSWITCH_5 
+         RON     .01         
+        ROFF    1.000000E+12 
+         VON     .01         
+        VOFF    0            
+
+
+               X_U1.S_VSWITCH_6 
+         RON     .01         
+        ROFF    1.000000E+12 
+         VON     .01         
+        VOFF    0            
+
+
+               X_U1.S_VSWITCH_7 
+         RON    1.000000E-03 
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .1          
+
+
+               X_U1.S_VSWITCH_8 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .1          
+
+
+               X_U1.S_VSWITCH_9 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .1          
+
+
+**** 08/16/21 14:23:42 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232807\Documents\Modeling\model_fix_reupload\opa375-pspicefiles\schematic1\transien
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   VO) 137.6E-06  (  VCC)    2.7500  (  VEE)   -2.7500  (  VIN)    0.0000      
+
+(X_U1.21) 138.4E-06                   (X_U1.22) 138.4E-06                       
+
+(X_U1.23) 83.88E-09                   (X_U1.24) 137.6E-06                       
+
+(X_U1.25) 137.6E-06                   (X_U1.26) 137.6E-06                       
+
+(X_U1.27) 70.77E-06                   (X_U1.28) 4.541E-06                       
+
+(X_U1.29)     .0015                   (X_U1.30)     .0015                       
+
+(X_U1.31) 61.54E-06                   (X_U1.32) 600.1E-15                       
+
+(X_U1.33) 600.1E-15                   (X_U1.34) 600.1E-15                       
+
+(X_U1.35) 599.1E-15                   (X_U1.36)-110.0E-15                       
+
+(X_U1.37)-110.0E-15                   (X_U1.38) 129.9E-06                       
+
+(X_U1.39) 129.9E-06                   (X_U1.40)-1.400E-12                       
+
+(X_U1.41)-1.400E-12                   (X_U1.42)-1.400E-12                       
+
+(X_U1.43)-1.400E-12                   (X_U1.44)    1.0001                       
+
+(X_U1.45)    1.0001                   (X_U1.46)    -.9999                       
+
+(X_U1.47)    -.9999                   (X_U1.48)-3.872E-06                       
+
+(X_U1.49)    -.1859                   (X_U1.50) 3.872E-06                       
+
+(X_U1.51)     .1859                   (X_U1.52)   57.0000                       
+
+(X_U1.53)  -57.0000                   (X_U1.54) 600.1E-15                       
+
+(X_U1.55) 600.1E-15                   (X_U1.56)    1.0001                       
+
+(X_U1.57)    -.9999                   (X_U1.58)  110.0000                       
+
+(X_U1.59) -110.0000                   (X_U1.60) 138.4E-06                       
+
+(X_U1.61) 600.1E-15                   (X_U1.62) 600.1E-15                       
+
+(X_U1.63) 600.1E-15                   (X_U1.64) 600.1E-15                       
+
+(X_U1.65) 600.1E-15                   (X_U1.66) 600.1E-15                       
+
+(X_U1.67)    2.7000                   (X_U1.68)   -2.7000                       
+
+(X_U1.69)    2.7000                   (X_U1.70)   -2.7000                       
+
+(X_U1.71) 600.1E-15                   (X_U1.72) 600.1E-15                       
+
+(X_U1.73) 600.1E-15                   (X_U1.74) 600.1E-15                       
+
+(X_U1.75) 600.1E-15                   (X_U1.76) 2.085E-12                       
+
+(X_U1.77) 137.6E-06                   (X_U1.78) 138.4E-06                       
+
+(X_U1.79) 137.6E-06                   (X_U1.80)   -2.7500                       
+
+(X_U1.81)    1.5500                   (X_U1.82) 137.6E-06                       
+
+(X_U1.83) 600.1E-15                   (X_U1.84)   -2.7500                       
+
+(X_U1.85)    2.7500                   (X_U1.86) 129.9E-06                       
+
+(X_U1.87) 129.9E-06                   (X_U1.MID) 600.1E-15                      
+
+(X_U1.ESDn) 137.6E-06                 (X_U1.ESDp)-100.0E-15                     
+
+(X_U1.VCLP) 138.4E-06                 (X_U1.CLAMP) 138.4E-06                    
+
+(X_U1.SW_OL) 600.1E-15                (X_U1.VCC_B)    2.7500                    
+
+(X_U1.VEE_B)   -2.7500                (X_U1.VIMON) 2.086E-12                    
+
+(X_U1.VOUT_S) 137.6E-06               (X_U1.VSENSE) 138.4E-06                   
+
+(X_U1.Xe_n.3)    0.0000               (X_U1.Xe_n.4)    0.0000                   
+
+(X_U1.Xe_n.5)    0.0000               (X_U1.Xe_n.6)    0.0000                   
+
+(X_U1.Xe_n.7)     .8338               (X_U1.Xe_n.8)     .8338                   
+
+(X_U1.Xi_n.3)    0.0000               (X_U1.Xi_n.4)    0.0000                   
+
+(X_U1.Xi_n.5)    0.0000               (X_U1.Xi_n.6)    0.0000                   
+
+(X_U1.Xi_n.7)     .8338               (X_U1.Xi_n.8)     .8338                   
+
+(X_U1.VCC_CLP)    2.7000              (X_U1.VEE_CLP)   -2.7000                  
+
+(X_U1.XIn11.3)    0.0000              (X_U1.XIn11.4)    0.0000                  
+
+(X_U1.XIn11.5)    0.0000              (X_U1.XIn11.6)    0.0000                  
+
+(X_U1.XIn11.7)     .8338              (X_U1.XIn11.8)     .8338                  
+
+(X_U1.CL_CLAMP) 138.4E-06             (X_U1.CLAW_CLAMP) 138.4E-06               
+
+(X_U1.XVOS_VCM.1) 129.9E-06           
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2        -8.500E-04
+    V_V3        -1.000E-11
+    V_V1        -8.500E-04
+    X_U1.V_GRp  -1.100E-10
+    X_U1.V_GRn   1.100E-10
+    X_U1.V_ISCp  -5.700E-11
+    X_U1.V_ISCn   5.700E-11
+    X_U1.V_ORn   0.000E+00
+    X_U1.V11     2.000E-12
+    X_U1.V_ORp   0.000E+00
+    X_U1.V12    -2.000E-12
+    X_U1.V4      1.485E-15
+    X_U1.VCM_MIN   2.750E-12
+    X_U1.VCM_MAX  -1.550E-12
+    X_U1.V_OS   -1.000E-11
+
+    TOTAL POWER DISSIPATION   4.68E-03  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 08/16/21 14:23:42 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232807\Documents\Modeling\model_fix_reupload\opa375-pspicefiles\schematic1\transien
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =        2.31
+  Total job time (using Solver 1)   =        1.19
+

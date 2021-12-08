@@ -1,0 +1,95 @@
+Circuit: * C:\Users\mattr\Dokumenty\mateuszrjzr_stm\matiHome\simulation\single_rail_amp.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 0.000101049
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+Gmin = 0.000102195
+vernier = 0.0208333
+vernier = 0.0277778
+Gmin = 9.63545e-005
+vernier = 0.037037
+vernier = 0.0493827
+Gmin = 8.77379e-005
+vernier = 0.0658435
+Gmin = 7.57404e-005
+vernier = 0.0877914
+vernier = 0.117055
+Gmin = 5.92446e-005
+vernier = 0.156073
+vernier = 0.208098
+Gmin = 4.0161e-005
+vernier = 0.277464
+Gmin = 2.19252e-005
+vernier = 0.369952
+vernier = 0.184976
+vernier = 0.246634
+Gmin = 1.46158e-005
+vernier = 0.123317
+vernier = 0.0616586
+vernier = 0.0308293
+vernier = 0.0154146
+vernier = 0.00770732
+vernier = 0.00385366
+vernier = 0.00192683
+vernier = 0.000963415
+Gmin = 1.3767e-005
+vernier = 0.000481708
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 7.57576%
+Source Step = 15.1515%
+Source Step = 22.7273%
+Source Step = 30.303%
+Source Step = 37.8788%
+vernier = 0.375
+Source Step = 48.8636%
+Source Step = 51.4205%
+Source Step = 54.2614%
+Source Step = 57.1023%
+Source Step = 59.9432%
+Source Step = 62.7841%
+vernier = 0.140625
+Source Step = 66.7614%
+Source Step = 71.0227%
+Source Step = 75.2841%
+Source Step = 79.5455%
+Source Step = 83.8068%
+vernier = 0.210938
+Source Step = 89.5597%
+Source Step = 95.9517%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Wed Dec 08 20:16:39 2021
+Total elapsed time: 0.485 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 3452
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 273
+fillins = 402
+solver = Normal
+Matrix Compiler1:    2151 opcodes
+Matrix Compiler2: 29.38 KB object code size  3.3/3.7/[1.0]
+
