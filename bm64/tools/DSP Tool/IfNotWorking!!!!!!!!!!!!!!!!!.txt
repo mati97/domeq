@@ -1,0 +1,2 @@
+Audio Function -> EQ -> Custom EQ2
+Just open and close it
