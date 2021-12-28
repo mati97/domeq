@@ -1,2 +1,3 @@
-Audio Function -> EQ -> Custom EQ2
+1.Audio Function -> EQ -> Custom EQ2
 Just open and close it
+2.Comfort noise doesn't load. You need to put in desired value each time you save it.
