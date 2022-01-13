@@ -1,0 +1,3 @@
+DTMF/DTMF.o: ../DTMF/DTMF.c ../DTMF/DTMF.h
+
+../DTMF/DTMF.h:
